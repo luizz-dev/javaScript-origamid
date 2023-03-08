@@ -1,2 +1,7 @@
-const idade = 5
-console.log(idade)
+var nomeMeu = 'luiz',
+  idadeMinha = 14, 
+   comidaFavorita 
+comidaFavorita = 'pizza'
+
+
+   console.log(nomeMeu,idadeMinha,comidaFavorita)
