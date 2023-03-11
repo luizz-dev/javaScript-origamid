@@ -1,13 +1,19 @@
-var string1 ='teste'
-var numeroString = '12'
-var idade = 14
+var numero = 'numero'
+var numero2 = 23
 
-var nome = typeof' luiz'
-var sobreNome = 'eduardo'
-var nomeCompleto = 'luiz' + ' ' + 'eduardo'
+console.log(numero - numero2)
 
-var frase = "It's a time"
+var string = +'200'
+var numero3 = 50
+var total = string + numero3
+console.log(total) 
 
+var x = 5
+console.log(++x) 
 
+var numero0 = +'80'/ 2,
+unidade = 'kg',
+peso = numero0 + unidade
 
-console.log(nome)
+console.log(peso) 
+
