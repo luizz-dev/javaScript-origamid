@@ -9,3 +9,18 @@ function corFavorita(cor){
   return 'nao gosto de cor'
   }
 }
+
+function terceiraIdade(idade){
+  if(typeof idade !== 'number'){
+    return 'por favor coloque um numero'
+  }
+  else if (idade >= 60){
+  return true
+  }
+  else {
+  return false
+  }
+
+}
+console.log(terceiraIdade(60))
+
