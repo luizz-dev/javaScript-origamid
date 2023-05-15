@@ -1,6 +1,5 @@
-var videoGames = ['Switch','PS4','XBOX']
+var brasilGanhou=['1959','1962','1970','1994','2002']
 
-
-for (var numero = 0;numero <10 ;numero++){
-  console.log(numero)
+for(var i = 0 ;i < brasilGanhou.length ;i++){
+  console.log(`O Brasil ganhou de ${brasilGanhou [i]}`)
 }
