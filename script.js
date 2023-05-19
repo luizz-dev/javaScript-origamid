@@ -13,7 +13,7 @@ for(var ganhou=0;ganhou<brasilGanhou.length;ganhou++){
 var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
 
  for (var fruta=0;fruta<frutas.length;fruta++){
-  console.log(frutas[fruta])
+ console.log(frutas[fruta])
   if(frutas[fruta]==='Pera')
   break
  }
