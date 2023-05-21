@@ -1,25 +1,56 @@
-// Crie uma array com os anos que o Brasil ganhou a copa
-// 1959, 1962, 1970, 1994, 2002
-var brasilGanhou = ['1959','1962','1970','2002',]
+// Some 500 ao valor de scroll abaixo,
+// atribuindo o novo valor a scroll
+var scroll = 1000;
+scroll += 500;
+console.log(scroll);
 
-// Interaja com a array utilizando um loop, para mostrar
-// no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
-for(var ganhou=0;ganhou<brasilGanhou.length;ganhou++){
-  console.log(`O brasil ganhou em ${brasilGanhou[ganhou]}`)
+// Atribua true para a variável darCredito,
+// caso o cliente possua carro e casa.
+// E false caso o contrário.
+var possuiCarro = true;
+var possuiCasa = true;
+var darCredito;
+
+darCredito = possuiCarro && possuiCasa;
+
+console.log(darCredito);
+
+const data = {
+  ano: 2018,
+  mes: "dezembro",
+};
+
+console.log(data);
+
+// Por qual motivo o código abaixo retorna com erros?
+{
+  var cor = "preto";
+  const marca = "Fiat";
+  let portas = 4;
+  console.log(cor, marca, portas);
 }
 
+// vaza por causa que var pode ser redefinido
 
-// Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
-var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
+// Como corrigir o erro abaixo?
+const dois = 2;
+function somarDois(x) {
+  return x + dois;
+}
+function dividirDois(x) {
+  return x / dois;
+}
+somarDois(4);
+dividirDois(6);
 
- for (var fruta=0;fruta<frutas.length;fruta++){
- console.log(frutas[fruta])
-  if(frutas[fruta]==='Pera')
-  break
- }
+//porque a const nao da escop
 
+// O que fazer para total retornar 500?
+const numero = 50;
 
-// Coloque a última fruta da array acima em uma variável,
-// sem remover a mesma da array.
+for (let numero = 0; numero < 10; numero++) {
+  console.log(numero);
+}
 
-var ultimaFruta = frutas[frutas.length -1]
+const total = 10 * numero;
+console.log(total);
