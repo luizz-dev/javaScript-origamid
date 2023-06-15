@@ -1,7 +1,14 @@
-const animais = document.getElementById("animais");
-console.log(animais);
+// Retorne no console todas as imagens do site
 
-const gridSections = document.getElementsByClassName("grid-sections");
+const img = document.querySelectorAll("img");
+console.log(img);
 
-const linksInternos = document.querySelector('[href^="#"]');
-console.log(linksInternos);
+// Retorne no console apenas as imagens que começaram com a palavra imagem
+const imagem = document.querySelectorAll('img[src^="img/imagem"]');
+console.log(imagem);
+// Selecione todos os links internos (onde o href começa com #)
+// const linksInternos = document.getElementById("#");
+// console.log(linksInternos);
+// Selecione o primeiro h2 dentro de .animais-descricao
+
+// Selecione o último p do site
