@@ -7,20 +7,28 @@ console.log(imgTop);
 
 // Retorne a soma da largura de todas as imagens
 function somaImagens() {
-const imgs = document.querySelectorAll("img");
-let soma=0
-imgs.forEach((imagens) => {
-  soma = soma + img.offsetWidth
-  console.log(soma);
-});
+  const imgs = document.querySelectorAll("img");
+  let soma = 0;
+  imgs.forEach((imagens) => {
+    soma = soma + img.offsetWidth;
+    console.log(soma);
+  });
 
-window.onload = function () {
-somaImagens()
- }
-
+  window.onload = function () {
+    somaImagens();
+  };
+}
 // Verifique se os links da página possuem
 // o mínimo recomendado para telas utilizadas
 // com o dedo. (48px/48px de acordo com o google)
 
 // Se o browser for menor que 720px,
 // adicione a classe menu-mobile ao menu
+
+const small = window.matchMedia("(max-width:600px)");
+
+if (small.matches) {
+  console.log("tela menor");
+} else {
+  console.log("tela maior");
+}
