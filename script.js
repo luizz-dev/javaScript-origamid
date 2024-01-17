@@ -1,15 +1,17 @@
-const tabMenu = document.querySelectorAll(".js-tabmenu li");
-const tabContent = document.querySelectorAll(".js-tabcontent section");
+// Qual o resultado da seguinte expressão?
+var total = 10 + (5 * 2) / 2 + 20;
 
-function activeTab(index) {
-  tabContent.forEach((section) => {
-    section.classList.remove("ativo");
-  });
-  tabContent[index].classList.add("ativo");
-}
+// Crie duas expressões que retornem NaN
 
-tabMenu.forEach((itemMenu, index) => {
-  itemMenu.addEventListener("click", function () {
-    activeTab(index);
-  });
-});
+// Somar a string '200' com o número 50 e retornar 250
+var string = +"200";
+var numer1 = 50;
+soma = string + numer1;
+
+// Incremente o número 5 e retorne o seu valor incrementado
+
+// Como dividir o peso por 2?
+var numero = +"80" / 2;
+var unidade = "kg";
+var peso = numero + unidade; // '80kg'
+console.log(peso);
