@@ -1,32 +1,14 @@
-// Crie um objeto com os seus dados pessoais
-// Deve possui pelo menos duas propriedades nome e sobrenome
-var dadosPessoais = {
-  nome: "luiz",
-  sobrenome: "eduardo",
-  idade: 15,
-};
-// Crie um método no objeto anterior, que mostre o seu nome completo
-dadosPessoais.nomeCompleto = function () {
-  return `${this.nome} ${this.sobrenome}`;
-};
-// Modifique o valor da propriedade preco para 3000
-var carro = {
-  preco: 1000,
-  portas: 4,
-  marca: "Audi",
-};
-carro.preco = 3000;
-// Crie um objeto de um cachorro que represente um labrador,
-// preto com 10 anos, que late ao ver um homem
-var cachorro = {
-  raca: "labrador",
-  cor: "preto",
-  idade: 10,
-  latir(pessoa) {
-    if (pessoa === "homem") {
-      return "latir";
-    } else {
-      return "nao latir";
-    }
-  },
-};
+// Crie uma array com os anos que o Brasil ganhou a copa
+// 1959, 1962, 1970, 1994, 2002
+var brGanhou = ["1959, 1962, 1970, 1994, 2002"];
+// Inpteraja com a array utilizando um loop, ara mostrar
+// no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
+for (var i = 0; i < brGanhou.length; ) {}
+
+// Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
+var frutas = ["Banana", "Maçã", "Pera", "Uva", "Melância"];
+for (var i = 0; i < this.Pera; ) {
+  console.log(frutas);
+}
+// Coloque a última fruta da array acima em uma variável,
+// sem remover a mesma da array.
